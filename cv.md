@@ -22,3 +22,12 @@ return a*b;
 let resultMultiply = multiply(4,7);
 console.log(resultMultiply);
 ```
+6.# **Work experience,courses**
+    *RS School stage 0 in progress
+    * [Markdown&Git]: (https://dzmitrysm.github.io/rsschool-cv/cv)
+ 7.# **Education**
+    *Belarusian National Technical University
+     Faculty of Information technology and robotics 
+    
+ 8.# English level
+    *According to epam test A2
