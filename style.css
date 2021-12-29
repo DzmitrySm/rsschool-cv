@@ -44,6 +44,7 @@ html {
 
 .main {
     background-color: cornsilk;
+    flex-grow: 2;
 }
 
 .main-container {
@@ -59,4 +60,9 @@ html {
 
 .link-tel {
 text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    background-color: darkgray;
 }
