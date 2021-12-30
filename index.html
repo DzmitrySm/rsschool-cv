@@ -17,12 +17,12 @@
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-            <li class="nav-item"><a href="#about mysef" class="nav-link">About myself</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="#example of code" class="nav-link">Example of code</a></li>
-            <li class="nav-item"><a href="#work experience, courses" class="nav-link">Work, experience, courses</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#english level" class="nav-link">English level</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
         </ul>
     </nav>  
 </div>
@@ -30,36 +30,37 @@
 <main class="main" >
 <div class="container main-container">
     <section class="section">
-        <img src="./assets/img/foto for CV.png" alt="Foto for cv" height="250px">
-        <h1>Dzmitry Smartsau</h1> 
+        <img src="./assets/img/fotoCV.png" alt="FotoCV" height="250">
+        <h1 class="section-title">Dzmitry Smartsau</h1> 
     </section>
-    <section class="section">
-        <h2>Contacts</h2>
-        <ul> 
+    <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list"> 
             <li>Discord: DzmitrySm(@DzmitrySm)</li>
             <li>Email: magicjoker@yandex.ru</li>
             <li>Telegram: <a href="https://t.me/dzmitrysm" class="link-tel">https://t.me/dzmitrysm</a></li>
         </ul> 
     </section>
-    <section class="section">
-        <h2>About myself</h2>
+    <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
         <p>I'm 31 years old.I have been working as an engineer in energetic company since 2012.
             And now it's time to get new knowledge and experience learning Front end development at
-            RS School. I would like to be interested in what i do and i hope i will get it in this area.</p> 
+            RS School. I would like to be interested in what i do and i hope i will get it in this area.
+        </p> 
     </section>
-    <section class="section">
-        <h2>Skills</h2>
-        <ul>    
+    <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2> 
+            <ul class="section-list">  
             <li>HTML basic</li>
             <li>CSS basic</li>
             <li>JS basic</li>
             <li>vs code in progress</li>
             <li>git in progress</li>
-        <ul> 
+        </ul> 
     </section>
-    <section class="section">
-        <h2>Example of code</h2>
-        <code>
+    <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <code class="code-background">
             const multiply = (a,b) => { <br>
                 return a*b;<br>
                 };<br>
@@ -67,26 +68,26 @@
                 console.log(resultMultiply);
         </code> 
     </section>
-    <section class="section">
-        <h2>Work experience, courses</h2>
-        <ul>    
+    <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul class="section-list">    
             <li>RS School stage 0 in progress</li>
             <li><a href="https://dzmitrysm.github.io/rsschool-cv/cv" class="link-project">Markdown&Git</a></li>
         </ul> 
     </section>
-    <section class="section">
-        <h2>Education</h2>
-        <ul>    
+    <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">    
             <li>Belarusian National Technical University
-            <ul>
+            <ul class="section-list">
                 <li>Faculty of Information technology and robotics</li> 
             </ul>
             </li>
                 
         </ul> 
     </section>
-    <section class="section">
-        <h2>English level</h2>
+    <section class="section" id="english">
+        <h2 class="section-title">English</h2>
             <p>According to epam test A2</p>
     </section>
     
@@ -94,14 +95,14 @@
 </main>
 <footer class="footer">
     <div class="container">
-        <p>
-            <a href="https://github.com/DzmitrySm">GitHub</a>
+        <p class="container-link">
+            <a href="https://github.com/DzmitrySm" class="footer-link">GitHub</a>
             Dzmitry Smartsau 2021
-            <a href="https://rs.school/js/">
+            <a href="https://rs.school/js/" class="footer-link">
             RS School
             </a>
             <a href="https://rs.school">
-            <img src="https://rs.school/images/rs_school_js.svg" height="75px" alt="logo">
+            <img src="https://rs.school/images/rs_school_js.svg" height="75" alt="logo">
             </a>
             </p>
     </div>
