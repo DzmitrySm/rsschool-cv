@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/roboto-v29-latin-700.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/roboto-v29-latin-300.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    transition: .3s;
+    color: hotpink;
+}
+
+.main {
+    background-color: #116e96;
+    flex-grow: 2;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.section-main-title {
+    text-transform: capitalize;
+}
+
+.section-title {
+    border-bottom: 3px solid white;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.link-contacts {
+    color: #070a59;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-contacts:hover {
+    color: hotpink;
+    transition: 0.3s;
+}
+
+
+.section-list {
+    list-style: square;
+    list-style-position: inside;
+    padding-inline-start: 10px;
+}
+
+.code-background {
+    background-color: grey;
+    color: white;
+}
+
+.link-project {
+    text-decoration: none;
+    color: #070a59;
+    transition: 0.3s;
+}
+
+.link-project:hover {
+    color: hotpink;
+    transition: .4s;
+}
+
+.footer {
+    background-color: grey;
+    color: brown;
+}
+
+.container-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-link:hover {
+    color: hotpink;
+    transition: .3s;
+}
+
+.project-year {
+    color: white;
+}
