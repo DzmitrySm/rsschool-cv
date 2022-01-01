@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/roboto-v29-latin-700.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/roboto-v29-latin-300.ttf");
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,16 +17,13 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
     line-height: 1.5;
-    color: darkseagreen;
+    color: white;
 }
 
 * {
     box-sizing: border-box;
-}
-main, footer, header {
-    border: 1px solid red;
 }
 
 .container {
@@ -25,7 +32,8 @@ main, footer, header {
 }
 
 .header {
-    background-color: violet;
+    background-color: white;
+    border: 2px solid black;
 }
 
 .nav-list {
@@ -43,17 +51,17 @@ html {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
-    color: chocolate;
+    color: black;
     transition: .3s;
 }
 
 .nav-link:hover {
     transition: .3s;
-    color: darkred;
+    color: hotpink;
 }
 
 .main {
-    background-color: cornsilk;
+    background-color: #116e96;
     flex-grow: 2;
 }
 
@@ -69,11 +77,17 @@ html {
     width: 50%;
 }
 
+.section-main-title {
+    text-transform: capitalize;
+}
+
 .section-title {
+    border-bottom: 3px solid white;
+    font-family: 'Roboto', sans-serif; 
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 700;
     letter-spacing: 5px;
-    color: royalblue;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -82,31 +96,42 @@ html {
     }
 }
 
-.link-tel {
-text-decoration: none;
-}
-
-.section-list {
-    list-style: none;
-}
-
-.code-background {
-    background-color: grey;
-}
-
-.link-project {
+.link-contacts {
+    color: #070a59;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-contacts:hover {
     color: hotpink;
     transition: 0.3s;
 }
 
+
+.section-list {
+    list-style: square;
+    list-style-position: inside;
+    padding-inline-start: 10px;
+}
+
+.code-background {
+    background-color: grey;
+    color: white;
+}
+
+.link-project {
+    text-decoration: none;
+    color: #070a59;
+    transition: 0.3s;
+}
+
 .link-project:hover {
-    color: black;
+    color: hotpink;
     transition: .4s;
 }
 
 .footer {
-    background-color: darkgray;
+    background-color: grey;
     color: brown;
 }
 
@@ -117,12 +142,16 @@ text-decoration: none;
 }
 
 .footer-link {
-    color: darkgreen;
+    color: white;
     text-decoration: none;
     transition: .3s;
 }
 
 .footer-link:hover {
-    color: coral;
+    color: hotpink;
     transition: .3s;
+}
+
+.project-year {
+    color: white;
 }
